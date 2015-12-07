@@ -1,0 +1,9 @@
+exceptions:
+  'Default':
+    status: 400
+  'Exceptions::AuthenticationError':
+    status: 401
+  'ActiveRecord::ActiveRecordError':
+    status: 403
+  'ActiveRecord::RecordNotFound':
+    status: 404
