@@ -1,4 +1,5 @@
-# Locals API
+Locals API [![Build Status](https://travis-ci.org/sergioaugrod/locals.svg)](https://travis-ci.org/sergioaugrod/locals)
+=======
 
 It's a simple rails api. Provides create groups based on location.
 
@@ -53,7 +54,7 @@ $ rails s
 
 ### Authentication
 
-### ```GET /auth/facebook```
+**```GET /auth/facebook```**
 
 Authenticates with facebook.
 
@@ -69,7 +70,7 @@ Response:
 
 Returns **200** if authentication succeds.
 
-### ```GET /auth/signout```
+**```GET /auth/signout```**
 
 Signout with facebook.
 
@@ -83,7 +84,7 @@ Response:
 
 Returns **200** if logout succeeds.
 
-### ```GET /sessions```
+**```GET /sessions```**
 
 Returns the information of the authenticated user.
 
@@ -101,7 +102,7 @@ Returns **200** if you're logged in or **401** if not.
 
 ### Groups
 
-### ```POST /api/groups```
+**```POST /api/groups```**
 
 Create a group.
 
@@ -136,7 +137,7 @@ Response:
 
 Returns **201** if the group was registered.
 
-### ```GET /api/groups```
+**```GET /api/groups```**
 
 Returns all registered groups.
 
@@ -165,7 +166,7 @@ Response:
 
 Returns **200** if you're logged in or **401** if not.
 
-### ```GET /api/groups/near?group[latitude]=-25.00&group[longitude]=-50.00```
+**```GET /api/groups/near?group[latitude]=-25.00&group[longitude]=-50.00```**
 
 Returns all near groups.
 
