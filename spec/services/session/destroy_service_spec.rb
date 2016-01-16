@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Session::DestroyService do
-  describe '.call' do
+  describe '#call' do
     subject { described_class.new(session).call }
 
     let(:session) { { user_id: 1_233_234 } }

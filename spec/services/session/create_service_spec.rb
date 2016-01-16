@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Session::CreateService do
-  describe '.call' do
+  describe '#call' do
     subject { described_class.new(session, auth).call }
 
     context 'when the auth exists' do

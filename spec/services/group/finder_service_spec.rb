@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Group::FinderService do
-  describe '.call' do
+  describe '#call' do
     subject { described_class.new.call }
 
     context 'when there are groups created' do

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User::InitializeService do
-  describe '.call' do
+  describe '#call' do
     subject { described_class.new(auth).call }
 
     context 'when the auth is correct' do

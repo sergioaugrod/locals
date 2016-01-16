@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Session::VerifyAuthenticationService do
-  describe '.call' do
+  describe '#call' do
     subject { described_class.new(session).call }
 
     context 'when the user exists' do

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Group::FinderNearService do
-  describe '.call' do
+  describe '#call' do
     subject { described_class.new(group).call }
 
     context 'when there are attributes' do

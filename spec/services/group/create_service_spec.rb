@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Group::CreateService do
-  describe '.call' do
+  describe '#call' do
     subject { described_class.new(group).call }
 
     context 'when the group is correct' do
